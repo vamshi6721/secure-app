@@ -1,3 +1,3 @@
-const API_KEY = "sk_test_1234567890SECRET";
+const API_KEY = process.env.API_KEY;
 
 console.log("App running");
